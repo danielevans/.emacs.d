@@ -1,0 +1,21 @@
+[submodule "vendor/cucumber.el"]
+	path = vendor/cucumber.el
+	url = https://github.com/michaelklishin/cucumber.el.git
+[submodule "vendor/coffee-mode"]
+	path = vendor/coffee-mode
+	url = https://github.com/defunkt/coffee-mode.git
+[submodule "vendor/haml-mode"]
+	path = vendor/haml-mode
+	url = https://github.com/nex3/haml-mode.git
+[submodule "vendor/handlebars-mode"]
+	path = vendor/handlebars-mode
+	url = https://github.com/danielevans/handlebars-mode.git
+[submodule "vendor/lua-mode"]
+	path = vendor/lua-mode
+	url = https://github.com/immerrr/lua-mode.git
+[submodule "vendor/yaml-mode"]
+	path = vendor/yaml-mode
+	url = https://github.com/yoshiki/yaml-mode.git
+[submodule "vendor/nxhtml"]
+	path = vendor/nxhtml
+	url = https://github.com/emacsmirror/nxhtml.git
