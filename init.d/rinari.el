@@ -1,0 +1,11 @@
+(load (expand-file-name "inf-ruby/inf-ruby.el" de-vendor-directory))
+(load (expand-file-name "findr.el/findr.el" de-vendor-directory))
+(load (expand-file-name "inflections/inflections.el" de-vendor-directory))
+(load (expand-file-name "jump/jump.el" de-vendor-directory))
+;; (load (expand-file-name "rinari/rinari.el" de-vendor-directory))
+(add-to-list 'load-path (expand-file-name "rinari" de-vendor-directory))
+(add-to-list 'load-path (expand-file-name "rhtml" de-vendor-directory))
+(require 'rinari)
+(require 'rhtml-mode)
+     (add-hook 'rhtml-mode-hook
+     	  (lambda () (rinari-launch)))

@@ -19,3 +19,15 @@
 [submodule "vendor/nxhtml"]
 	path = vendor/nxhtml
 	url = https://github.com/emacsmirror/nxhtml.git
+[submodule "vendor/rinari"]
+	path = vendor/rinari
+	url = https://github.com/eschulte/rinari.git
+[submodule "vendor/inf-ruby"]
+	path = vendor/inf-ruby
+	url = https://github.com/nonsequitur/inf-ruby.git
+[submodule "vendor/jump"]
+	path = vendor/jump
+	url = https://github.com/eschulte/jump.el.git
+[submodule "vendor/rhtml"]
+	path = vendor/rhtml
+	url = https://github.com/eschulte/rhtml.git
