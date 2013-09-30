@@ -19,3 +19,9 @@
 [submodule "vendor/nxhtml"]
 	path = vendor/nxhtml
 	url = https://github.com/emacsmirror/nxhtml.git
+[submodule "vendor/magit"]
+	path = vendor/magit
+	url = https://github.com/magit/magit.git
+[submodule "vendor/git-modes"]
+	path = vendor/git-modes
+	url = https://github.com/magit/git-modes.git

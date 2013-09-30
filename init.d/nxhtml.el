@@ -6,3 +6,9 @@
  indent-region-mode t
  rng-nxml-auto-validate-flag nil
  nxml-degraded t)
+
+(when (and (>= emacs-major-version 24)
+           (>= emacs-minor-version 2))
+  (eval-after-load "mumamo"
+    '(setq mumamo-per-buffer-local-vars
+           (delq 'buffer-file-name mumamo-per-buffer-local-vars))))
