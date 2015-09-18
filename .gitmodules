@@ -27,13 +27,19 @@
 	url = https://github.com/magit/git-modes.git
 [submodule "vendor/scss-mode"]
 	path = vendor/scss-mode
-	url = git@github.com:antonj/scss-mode.git
+	url = https://github.com/antonj/scss-mode.git
 [submodule "vendor/go-mode.el"]
 	path = vendor/go-mode.el
 	url = https://github.com/dominikh/go-mode.el
 [submodule "vendor/web-mode"]
 	path = vendor/web-mode
-	url = git@github.com:fxbois/web-mode.git
+	url = https://github.com/fxbois/web-mode.git
 [submodule "vendor/emacs-slim"]
 	path = vendor/emacs-slim
 	url = https://github.com/slim-template/emacs-slim
+[submodule "vendor/emacs-elixir"]
+	path = vendor/emacs-elixir
+	url = https://github.com/elixir-lang/emacs-elixir.git
+[submodule "vendor/markdown-mode"]
+	path = vendor/markdown-mode
+	url = git://jblevins.org/git/markdown-mode.git
