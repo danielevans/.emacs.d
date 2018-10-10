@@ -12,4 +12,6 @@
 (add-to-list 'auto-mode-alist '("\\.rabl\\'" . ruby-mode))
 (add-to-list 'auto-mode-alist '("\\.jbuilder\\'" . ruby-mode))
 (add-to-list 'auto-mode-alist '("\\.html.erb\\'" . web-mode))
+(add-to-list 'auto-mode-alist '("\\.proto\\'" . protobuf-mode))
 ;; (add-to-list 'auto-mode-alist '("\\.html\\.erb\\'" . eruby-nxhtml-mumamo-mode))
+(add-to-list 'auto-mode-alist '("\\.js\\'" . rjsx-mode))

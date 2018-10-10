@@ -43,3 +43,12 @@
 [submodule "vendor/markdown-mode"]
 	path = vendor/markdown-mode
 	url = git://jblevins.org/git/markdown-mode.git
+[submodule "vendor/syslog-mode"]
+	path = vendor/syslog-mode
+	url = git@github.com:vapniks/syslog-mode.git
+[submodule "vendor/rjsx-mode"]
+	path = vendor/rjsx-mode
+	url = git@github.com:felipeochoa/rjsx-mode.git
+[submodule "vendor/js2-mode"]
+	path = vendor/js2-mode
+	url = git@github.com:mooz/js2-mode.git
