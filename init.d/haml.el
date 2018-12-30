@@ -1,1 +1,3 @@
-(load (expand-file-name "haml-mode/haml-mode.el" de-vendor-directory))
+(unless (package-installed-p 'haml-mode)
+  (package-install 'haml-mode))
+

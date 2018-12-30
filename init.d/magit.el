@@ -1,12 +1,25 @@
-(add-to-list 'load-path (expand-file-name "cl-lib" de-vendor-directory))
-(add-to-list 'load-path (expand-file-name "git-modes" de-vendor-directory))
-(add-to-list 'load-path (expand-file-name "magit" de-vendor-directory))
+(unless (package-installed-p 'magit)
+  (package-install 'magit))
 
 
 (eval-after-load 'magit
   '(progn
-     (set-face-foreground 'magit-diff-add "green3")
-     (set-face-foreground 'magit-diff-del "red3")
-     (set-face-background 'magit-item-highlight "#222")))
+     (set-face-foreground 'magit-diff-added-highlight "green3")
+     (set-face-foreground 'magit-diff-added "green3")
+     (set-face-foreground 'smerge-refined-added "green3")
 
-(require 'magit)
+     (set-face-foreground 'magit-diff-removed-highlight "red3")
+     (set-face-foreground 'magit-diff-removed "red3")
+     (set-face-foreground 'smerge-refined-removed "red3")
+
+     (set-face-background 'magit-diff-added-highlight "#222")
+     (set-face-background 'magit-diff-added "#222")
+     (set-face-background 'smerge-refined-added "#222")
+
+     (set-face-background 'magit-diff-removed-highlight "#222")
+     (set-face-background 'magit-diff-removed "#222")
+     (set-face-background 'smerge-refined-removed "#222")
+     ))
+
+;; (require 'magit)
+;; '(custom-enabled-themes (quote (tango-dark)))

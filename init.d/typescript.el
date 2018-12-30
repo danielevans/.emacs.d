@@ -1,1 +1,3 @@
-(load (expand-file-name "typescript-mode.el" de-vendor-directory))
+(unless (package-installed-p 'typescript-mode)
+  (package-install 'typescript-mode))
+

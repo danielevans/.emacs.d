@@ -1,1 +1,2 @@
-(load (expand-file-name "cucumber.el/feature-mode.el" de-vendor-directory))
+(unless (package-installed-p 'feature-mode)
+  (package-install 'feature-mode))

@@ -6,5 +6,6 @@
      (set-face-foreground 'handlebars-mode-builtins-face "cyan")
      (set-face-foreground 'handlebars-mode-variable-face "cyan")))
 
-;;;(add-to-list 'load-path (expand-file-name "handlebars-mode" de-vendor-directory))
-(load (expand-file-name "handlebars-mode/handlebars-mode.el" de-vendor-directory))
+
+(unless (package-installed-p 'handlebars-mode)
+  (package-install 'handlebars-mode))

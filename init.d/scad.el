@@ -1,1 +1,2 @@
-(load (expand-file-name "scad-mode.el" de-vendor-directory))
+(unless (package-installed-p 'scad-mode)
+  (package-install 'scad-mode))

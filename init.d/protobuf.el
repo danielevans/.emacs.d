@@ -1,1 +1,3 @@
-(load (expand-file-name "protobuf-mode/protobuf-mode.el" de-vendor-directory))
+(unless (package-installed-p 'protobuf-mode)
+  (package-install 'protobuf-mode))
+

@@ -1,1 +1,2 @@
-(load (expand-file-name "emacs-slim/slim-mode.el" de-vendor-directory))
+(unless (package-installed-p 'slim-mode)
+  (package-install 'slim-mode))

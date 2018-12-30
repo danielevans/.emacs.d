@@ -1,1 +1,2 @@
-(load (expand-file-name "yaml-mode/yaml-mode.el" de-vendor-directory))
+(unless (package-installed-p 'yaml-mode)
+  (package-install 'yaml-mode))
